@@ -3,7 +3,7 @@ const app = express()
 
 app.get('/endpointName', function (req, res) {
     //res.header("Access-Control-Allow-Origin", "*");
-    res.send(JSON.stringify("hello"))
+    res.send(JSON.stringify("goodbye"))
 });
 
 app.listen(3000, function () {
