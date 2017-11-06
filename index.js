@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/endpointName', function (req, res) {
-    //res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Origin", "*");
     res.send(JSON.stringify("goodbye"))
 });
 
